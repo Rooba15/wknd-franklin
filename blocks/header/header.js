@@ -91,6 +91,7 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
+
   // load nav as fragment
   const navMeta = getMetadata('nav');
   const navPath = navMeta ? new URL(navMeta).pathname : '/nav';
@@ -127,6 +128,12 @@ export default async function decorate(block) {
       });
     });
   }
+
+  //Search Icon
+  const searchIcon = document.createElement('span');
+  searchIcon.classList.add('icon-search');
+  searchIcon.innerHTML = `<a href="https://google.com"><img data-icon-name="search" src="/icons/search.svg"/></a>`;
+  nav.append(searchIcon);
 
   // hamburger for mobile
   const hamburger = document.createElement('div');

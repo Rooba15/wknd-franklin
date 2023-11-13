@@ -145,6 +145,7 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+  margin-top: 25px;
 }
 
 header nav .nav-brand img {
@@ -228,6 +229,7 @@ header nav .nav-sections ul > li > ul > li {
     gap: 2em;
     margin: 0;
     font-size: var(--body-font-size-xs);
+    justify-content: end;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
@@ -272,4 +274,15 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+.nav-sections a{
+  color: var(--textColor,#202020);
+  font-size: var(--fontSizeSmall,14px);
+  padding: 15px 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-sections a:hover{
+  background-color: var(--brandPrimary,#ffea00);
 }
