@@ -15,9 +15,15 @@
   .articles .articles-card-body {
     margin: 16px;
   }
+  .articles .articles-card-body a{
+    color: var(--textColor,#202020);
+  }
   
   .articles .articles-card-image {
     line-height: 0;
+  }
+  .articles .articles-card-body p:nth-child(2){
+    font-size: 14px;
   }
   
   .articles .articles-card-body > *:first-child {

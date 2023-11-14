@@ -1,5 +1,33 @@
 
-
+.featured.block{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.featured.block .featured-body{
+    width: 35%;
+    padding: 0 40px;
+    background-color: #ebebeb;
+}
+.featured.block .featured-body p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.featured.block .featured-image{
+    width: 65%;
+}
+.featured.block .featured-image>div{
+    height: 100%;
+    width: 100%;
+}
+.featured.block img{
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
 .featured.block a{
     background-color: var(--brandPrimary,#ffea00);
     border-radius: var(--buttonBorderRadius,0);
@@ -9,3 +37,4 @@
     font-weight: var(--fontWeightBold,600);
     padding: 1em 2.5em;
     text-transform: uppercase;}
+
