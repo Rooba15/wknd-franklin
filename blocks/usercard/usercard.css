@@ -5,6 +5,11 @@
     margin: 0 auto;
     padding: 0px 32px;
 }
+.usercard>div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 .usercard picture img{
     border-radius: 50%;
     height: 164px;

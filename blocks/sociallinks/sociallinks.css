@@ -1,3 +1,19 @@
 .sociallinks-wrapper{
     display:none;
 }
+.usercard-wrapper .sociallinks-wrapper{
+    display: block;
+}
+.sociallinks ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.sociallinks ul a{
+    color: var(--textColorInverse,#ebebeb);
+    padding: 6px;
+    border: 0.5px solid #ccc;
+    display: flex;
+}

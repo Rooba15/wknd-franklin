@@ -152,4 +152,6 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
+
+  block.querySelector('.nav-brand').addEventListener('click', () => window.location.href="/home");
 }

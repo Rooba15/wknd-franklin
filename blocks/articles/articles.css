@@ -39,4 +39,7 @@
     padding: 1em 2.5em;
     text-transform: uppercase;
 }
+#all-articles,#featured-article,#our-contributors{
+  margin-bottom: 50px;
+}
   
